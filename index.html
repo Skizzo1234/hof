@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- Add icon library -->
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 70px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;}
+
+
+  .fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+</style>
+<body class="w3-light-grey">
+
+<!-- w3-content defines a container for fixed size centered content,
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1400px">
+
+<!-- Header -->
+<header class="w3-container w3-center w3-padding-32">
+  <h1><b>Hof Pahmeyer</b></h1>  <p>Willkommen auf dem Hof Pahmeyer <span class="w3-tag"></span></p>
+
+</header>
+
+<!-- Grid -->
+<div class="w3-row">
+
+<!-- Blog entries -->
+<div class="w3-col l8 s12">
+  <!-- Blog entry -->
+  <div class="w3-card-4 w3-margin w3-white">
+    <img src="./bilder/Hof.jpg" alt="Hof ansicht" style="width:100%">
+    <div class="w3-container">
+      <h3><b>Der Hof</b></h3>
+      <h5>Eggeberg, <span class="w3-opacity">7. Arpil, 2019</span></h5>
+    </div>
+
+    <div class="w3-container">
+      <p>Hier sehen sie unseren Hof von oben.....</p>
+      <div class="w3-row">
+        <div class="w3-col m8 s12">
+          <p><button class="w3-button w3-padding-large w3-white w3-border" onclick="window.location.href = 'Hof.html';"><b>Erfahre Mehr »</b></button></p>
+        </div>
+        <div class="w3-col m4 w3-hide-small">
+          <p><span class="w3-padding-large w3-right"><b>  </b> <span class="w3-tag"></span></span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+
+  <!-- Blog entry -->
+  <div class="w3-card-4 w3-margin w3-white">
+  <img src="./bilder/gruppe.JPG" alt="Mitarbeiter" style="width:100%">
+    <div class="w3-container">
+      <h3><b>Die Truppe</b></h3>
+      <h5>Unsere Mitarbeiter <span class="w3-opacity">10. Oktober, 2019</span></h5>
+    </div>
+
+    <div class="w3-container">
+      <p>Während der Erntezeit geht es zwar immer stressig zu, ein kleiner Snack zusammen ist jedoch immer Willkommen.</p>
+      <div class="w3-row">
+        <div class="w3-col m8 s12">
+          <p><button class="w3-button w3-padding-large w3-white w3-border"onclick="window.location.href = 'Team.html';"><b>Erfahre Mehr »</b></button></p>
+        </div>
+        <div class="w3-col m4 w3-hide-small">
+          <p><span class="w3-padding-large w3-right"><b>  </b> <span class="w3-badge"></span></span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- END BLOG ENTRIES -->
+</div>
+
+<!-- Introduction menu -->
+<div class="w3-col l4">
+  <!-- About Card -->
+  <div class="w3-card w3-margin w3-margin-top">
+  <img src="./bilder/Kartoffelroder.jpg" style="width:100%">
+    <div class="w3-container w3-white">
+      <h4><b>Unsere Produkte</b></h4>
+      <p>Wir versuchen immer das beste aus unseren Produkten herauszuholen.</p>
+    </div>
+        <p><button class="w3-button w3-padding-large w3-white w3-border" onclick="window.location.href = 'Produkte.html';"><b>Erfahre Mehr »</b></button></p>
+    <div class="w3-col m8 s12">
+    </div>
+  </div><hr>
+
+  <!-- Posts -->
+  <div class="w3-card w3-margin w3-margin-top">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1030.7224202077412!2d8.353399179275439!3d52.08910664880358!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47ba1f0b729d2789%3A0x61ce5efb9bd9e192!2sEggeberger%20Str.%2037%2C%2033790%20Halle%20(Westfalen)!5e0!3m2!1sde!2sde!4v1575393083098!5m2!1sde!2sde"
+  width="400" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+    <div class="w3-container w3-white">
+      <h4><b>Kontakt</b></h4>
+      <p>Eggebergerstrasse 37</br>
+         33790 Halle</br>
+          05201/10407</p>
+    </div>
+    <div class="w3-col m8 s12">
+    </div>
+  </div><hr>
+  <hr>
+
+<!--
+
+  </div>
+
+
+  </div><br>
+
+  
+</div>  -->
+
+
+<!-- Footer -->
+<footer class="w3-container w3-dark-grey w3-padding-32 w3-margin-top">
+
+  <!-- Add font awesome icons -->
+  <a href="https://www.facebook.com/EiradEier/" class="fa fa-facebook"></a>
+  <a href="mailto:pahmeyer@oelpresse.de"Email Me class="fa fa-google"></a>
+
+</footer>
+
+</body>
+</html>
